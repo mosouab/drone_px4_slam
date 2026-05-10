@@ -6,8 +6,6 @@ https://github.com/user-attachments/assets/afb34623-9992-4a96-bcf5-a598c13d5030
 
 
 
-[Si la vidéo ne s'affiche pas, cliquer ici](imgs/Screencast%20from%202026-05-10%2016-16-38.mp4)
-
 Ce dépôt implémente une chaîne complète de contrôle autonome d’un drone en environnement **GPS-denied** :
 - contrôle de vol PX4 (SITL ou réel),
 - abstraction de mission (C et Python/MAVSDK),
