@@ -15,7 +15,6 @@ Ce dépôt implémente une chaîne complète de contrôle autonome d’un drone 
 - perception visuelle (ArUco),
 - VIO/VSLAM avec RTAB-Map.
 
-Le projet est basé sur le rapport TER (`guide/rapport_px4_vio_drone (1).pdf`) et fournit aussi un environnement **Docker AIO** reproductible.
 
 ## Architecture du système
 
