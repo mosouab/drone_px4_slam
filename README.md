@@ -1,6 +1,10 @@
 # Système embarqué pour drone autonome sans GPS (PX4 + ROS 2 + VIO/SLAM)
 
-<video src="imgs/Screencast%20from%202026-05-10%2016-16-38.mp4" controls width="100%"></video>
+
+
+https://github.com/user-attachments/assets/afb34623-9992-4a96-bcf5-a598c13d5030
+
+
 
 [Si la vidéo ne s'affiche pas, cliquer ici](imgs/Screencast%20from%202026-05-10%2016-16-38.mp4)
 
