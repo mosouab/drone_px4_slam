@@ -1,0 +1,25 @@
+services:
+  drone-dev:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: drone-px4-slam:jazzy
+    container_name: drone-px4-slam-dev
+    working_dir: /work
+    stdin_open: true
+    tty: true
+    init: true
+    command: ["sleep", "infinity"]
+    environment:
+      - PX4_GIT_REF=v1.16.0
+      - PX4_AUTOPILOT_DIR=/work/workspace/PX4-Autopilot
+      - DISPLAY=${DISPLAY}
+      - QT_QPA_PLATFORM=${QT_QPA_PLATFORM:-xcb}
+      - QT_X11_NO_MITSHM=1
+    ports:
+      - "14540:14540/udp"
+      - "14550:14550/udp"
+      - "14557:14557/udp"
+    volumes:
+      - ..:/work
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
