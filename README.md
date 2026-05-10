@@ -29,7 +29,7 @@ Ce dépôt implémente une chaîne complète de contrôle autonome d’un drone 
 - Ordinateur compagnon : Raspberry Pi 4  
 - Capteur vision/profondeur : Intel RealSense D455
 
-## Arborescence utile
+## File tree
 
 ```text
 docker/                         # Dockerfile, compose, scripts de démarrage
@@ -111,7 +111,7 @@ python3 takeoff.py
 python3 landing.py
 ```
 
-## Exécution manuelle (hors Docker, résumé du rapport)
+## Exécution manuelle (hors Docker)
 
 1. Installer ROS 2 Jazzy + MAVROS + bridges + RTAB-Map + topic_tools.
 2. Installer les datasets GeographicLib MAVROS.
@@ -121,7 +121,7 @@ python3 landing.py
 
 ## Paramètres EKF2 recommandés (vol sans GPS)
 
-À configurer côté PX4 (QGroundControl / shell MAVLink) selon le rapport :
+À configurer côté PX4 (QGroundControl / shell MAVLink):
 
 ```text
 SYS_HAS_GPS   = 0
